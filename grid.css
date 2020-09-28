@@ -1,0 +1,98 @@
+/* .one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.ten {
+  grid-area: ten;
+}
+
+.eleven {
+  grid-area: eleven;
+}
+
+.twelve {
+  grid-area: twelve;
+}
+
+.thirteen {
+  grid-area: thirteen;
+}
+
+.fourteen {
+  grid-area: fourteen;
+}
+
+.fifteen {
+  grid-area: fifteen;
+}
+
+.sixteen {
+  grid-area: sixteen;
+}
+
+.seventeen {
+  grid-area: seventeen;
+}
+
+.eighteen {
+  grid-area: eighteen;
+}
+
+
+
+.one
+  .two
+  .three
+  .four
+  .five
+  .six
+  .seven
+  .eight
+  .nine
+  .ten
+  .eleven
+  .twelve
+  .thirteen
+  .fourteen
+  .fifteen
+  .sixteen
+  .seventeen
+  .eighteen {
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: auto;
+} */

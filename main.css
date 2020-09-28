@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: rgb(0, 255, 238);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50%;
+  font-size: 50px;
+  color: white;
+}
+
+.game {
+  border: 3px solid rgb(150, 29, 29);
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "one two three four five six"
+    "seven eight nine ten eleven twelve"
+    "thirteen fourteen fifteen sixteen seventeen eighteen";
+}
+
+.one {
+  grid-area: one;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.two {
+  grid-area: two;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.three {
+  grid-area: three;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.four {
+  grid-area: four;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.five {
+  grid-area: five;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.six {
+  grid-area: six;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.seven {
+  grid-area: seven;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.eight {
+  grid-area: eight;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.nine {
+  grid-area: nine;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.ten {
+  grid-area: ten;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.eleven {
+  grid-area: eleven;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.twelve {
+  grid-area: twelve;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.thirteen {
+  grid-area: thirteen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.fourteen {
+  grid-area: fourteen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.fifteen {
+  grid-area: fifteen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.sixteen {
+  grid-area: sixteen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.seventeen {
+  grid-area: seventeen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.eighteen {
+  grid-area: eighteen;
+  border: 1px solid black;
+  min-height: 250px;
+  min-width: 210px;
+  margin-top: 10px;
+  perspective: 550px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: red;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card__face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: red;
+}
+
+.card__face--back {
+  background: blue;
+  transform: rotateY(180deg);
+}
+
+.isFlipped {
+  transform: rotateY(180deg);
+}
+
